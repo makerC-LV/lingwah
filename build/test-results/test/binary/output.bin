@@ -1,0 +1,539 @@
+)(------- xml --------------
+)(,<match start='0' end='261' parser=DOCUMENT>
+)(U	<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>.
+)(?@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>.
+)(
+)(8test:CustomerFromManifest resource:type test:Customer ;
+)(D			resource:description "A Customer defined in a Meteor manifest" .
+)(
+)(
+)(
+)(
+)(]]></text>
+)(	<children>
+)()		<match start='0' end='0' parser=optws>
+)(			<text><![CDATA[]]></text>
+)(		</match>
+)(H		<match start='0' end='261' parser=repeat(sequence(STATEMENT, optws))>
+)(W			<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>.
+)(A		@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>.
+)(		
+)(:		test:CustomerFromManifest resource:type test:Customer ;
+)(F					resource:description "A Customer defined in a Meteor manifest" .
+)(		
+)(		
+)(		
+)(		
+)(		]]></text>
+)(			<children>
+)(A				<match start='0' end='69' parser=sequence(STATEMENT, optws)>
+)(Y					<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>.
+)(				]]></text>
+)(					<children>
+)(2						<match start='0' end='68' parser=STATEMENT>
+)(e							<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>.]]></text>
+)(							<children>
+)(E								<match start='0' end='67' parser=choice(DIRECTIVE, TRIPLES)>
+)(f									<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>]]></text>
+)(									<children>
+)(6										<match start='0' end='67' parser=DIRECTIVE>
+)(h											<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>]]></text>
+)(											<children>
+)(8												<match start='0' end='67' parser=PREFIX_ID>
+)(j													<text><![CDATA[@prefix resource: <meteor:com.googlecode.meteorframework.Resource.>]]></text>
+)(													<children>
+)(A														<match start='0' end='7' parser=string('@prefix')>
+)(0															<text><![CDATA[@prefix]]></text>
+)(														</match>
+)(2														<match start='7' end='8' parser=ws>
+)(*															<text><![CDATA[ ]]></text>
+)(															<children>
+)(<																<match start='7' end='8' parser=whitespace>
+)(,																	<text><![CDATA[ ]]></text>
+)(																</match>
+)(															</children>
+)(														</match>
+)(F														<match start='8' end='16' parser=optional(PREFIX_NAME)>
+)(1															<text><![CDATA[resource]]></text>
+)(															<children>
+)(>																<match start='8' end='16' parser=PREFIX_NAME>
+)(3																	<text><![CDATA[resource]]></text>
+)(																	<children>
+)(9																		<match start='8' end='16' parser=name>
+)(5																			<text><![CDATA[resource]]></text>
+)(																		</match>
+)(																	</children>
+)(																</match>
+)(															</children>
+)(														</match>
+)(=														<match start='16' end='17' parser=string(':')>
+)(*															<text><![CDATA[:]]></text>
+)(														</match>
+)(4														<match start='17' end='18' parser=ws>
+)(*															<text><![CDATA[ ]]></text>
+)(															<children>
+)(>																<match start='17' end='18' parser=whitespace>
+)(,																	<text><![CDATA[ ]]></text>
+)(																</match>
+)(															</children>
+)(														</match>
+)(8														<match start='18' end='67' parser=URIREF>
+)(Z															<text><![CDATA[<meteor:com.googlecode.meteorframework.Resource.>]]></text>
+)(														</match>
+)(													</children>
+)(												</match>
+)(											</children>
+)(										</match>
+)(									</children>
+)(								</match>
+)(1								<match start='67' end='67' parser=optws>
+)(#									<text><![CDATA[]]></text>
+)(								</match>
+)(7								<match start='67' end='68' parser=string('.')>
+)($									<text><![CDATA[.]]></text>
+)(								</match>
+)(							</children>
+)(						</match>
+)(/						<match start='68' end='69' parser=optws>
+)(							<text><![CDATA[
+)(						]]></text>
+)(							<children>
+)(.								<match start='68' end='69' parser=ws>
+)(									<text><![CDATA[
+)(								]]></text>
+)(									<children>
+)(8										<match start='68' end='69' parser=whitespace>
+)(											<text><![CDATA[
+)(										]]></text>
+)(										</match>
+)(									</children>
+)(								</match>
+)(							</children>
+)(						</match>
+)(					</children>
+)(				</match>
+)(C				<match start='69' end='133' parser=sequence(STATEMENT, optws)>
+)(S					<text><![CDATA[@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>.
+)(				
+)(				]]></text>
+)(					<children>
+)(4						<match start='69' end='131' parser=STATEMENT>
+)(_							<text><![CDATA[@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>.]]></text>
+)(							<children>
+)(G								<match start='69' end='130' parser=choice(DIRECTIVE, TRIPLES)>
+)(`									<text><![CDATA[@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>]]></text>
+)(									<children>
+)(8										<match start='69' end='130' parser=DIRECTIVE>
+)(b											<text><![CDATA[@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>]]></text>
+)(											<children>
+)(:												<match start='69' end='130' parser=PREFIX_ID>
+)(d													<text><![CDATA[@prefix test: <meteor:com.googlecode.meteorlang.parser.test.>]]></text>
+)(													<children>
+)(C														<match start='69' end='76' parser=string('@prefix')>
+)(0															<text><![CDATA[@prefix]]></text>
+)(														</match>
+)(4														<match start='76' end='77' parser=ws>
+)(*															<text><![CDATA[ ]]></text>
+)(															<children>
+)(>																<match start='76' end='77' parser=whitespace>
+)(,																	<text><![CDATA[ ]]></text>
+)(																</match>
+)(															</children>
+)(														</match>
+)(G														<match start='77' end='81' parser=optional(PREFIX_NAME)>
+)(-															<text><![CDATA[test]]></text>
+)(															<children>
+)(?																<match start='77' end='81' parser=PREFIX_NAME>
+)(/																	<text><![CDATA[test]]></text>
+)(																	<children>
+)(:																		<match start='77' end='81' parser=name>
+)(1																			<text><![CDATA[test]]></text>
+)(																		</match>
+)(																	</children>
+)(																</match>
+)(															</children>
+)(														</match>
+)(=														<match start='81' end='82' parser=string(':')>
+)(*															<text><![CDATA[:]]></text>
+)(														</match>
+)(4														<match start='82' end='83' parser=ws>
+)(*															<text><![CDATA[ ]]></text>
+)(															<children>
+)(>																<match start='82' end='83' parser=whitespace>
+)(,																	<text><![CDATA[ ]]></text>
+)(																</match>
+)(															</children>
+)(														</match>
+)(9														<match start='83' end='130' parser=URIREF>
+)(X															<text><![CDATA[<meteor:com.googlecode.meteorlang.parser.test.>]]></text>
+)(														</match>
+)(													</children>
+)(												</match>
+)(											</children>
+)(										</match>
+)(									</children>
+)(								</match>
+)(3								<match start='130' end='130' parser=optws>
+)(#									<text><![CDATA[]]></text>
+)(								</match>
+)(9								<match start='130' end='131' parser=string('.')>
+)($									<text><![CDATA[.]]></text>
+)(								</match>
+)(							</children>
+)(						</match>
+)(1						<match start='131' end='133' parser=optws>
+)(							<text><![CDATA[
+)(						
+)(						]]></text>
+)(							<children>
+)(0								<match start='131' end='133' parser=ws>
+)(									<text><![CDATA[
+)(									
+)(								]]></text>
+)(									<children>
+)(:										<match start='131' end='133' parser=whitespace>
+)(											<text><![CDATA[
+)(										
+)(										]]></text>
+)(										</match>
+)(									</children>
+)(								</match>
+)(							</children>
+)(						</match>
+)(					</children>
+)(				</match>
+)(D				<match start='133' end='261' parser=sequence(STATEMENT, optws)>
+)(L					<text><![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+)(H							resource:description "A Customer defined in a Meteor manifest" .
+)(				
+)(				
+)(				
+)(				
+)(				]]></text>
+)(					<children>
+)(5						<match start='133' end='256' parser=STATEMENT>
+)(N							<text><![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+)(T									resource:description "A Customer defined in a Meteor manifest" .]]></text>
+)(							<children>
+)(H								<match start='133' end='254' parser=choice(DIRECTIVE, TRIPLES)>
+)(P									<text><![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+)(T											resource:description "A Customer defined in a Meteor manifest"]]></text>
+)(									<children>
+)(7										<match start='133' end='254' parser=TRIPLES>
+)(R											<text><![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+)(V													resource:description "A Customer defined in a Meteor manifest"]]></text>
+)(											<children>
+)(9												<match start='133' end='158' parser=SUBJECT>
+)(@													<text><![CDATA[test:CustomerFromManifest]]></text>
+)(													<children>
+)(<														<match start='133' end='158' parser=RESOURCE>
+)(B															<text><![CDATA[test:CustomerFromManifest]]></text>
+)(															<children>
+)(;																<match start='133' end='158' parser=QNAME>
+)(D																	<text><![CDATA[test:CustomerFromManifest]]></text>
+)(																	<children>
+)(F																		<match start='133' end='137' parser=optional(name)>
+)(1																			<text><![CDATA[test]]></text>
+)(																			<children>
+)(>																				<match start='133' end='137' parser=name>
+)(3																					<text><![CDATA[test]]></text>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(C																		<match start='137' end='138' parser=string(':')>
+)(.																			<text><![CDATA[:]]></text>
+)(																		</match>
+)(F																		<match start='138' end='158' parser=optional(name)>
+)(A																			<text><![CDATA[CustomerFromManifest]]></text>
+)(																			<children>
+)(>																				<match start='138' end='158' parser=name>
+)(C																					<text><![CDATA[CustomerFromManifest]]></text>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(																	</children>
+)(																</match>
+)(															</children>
+)(														</match>
+)(													</children>
+)(												</match>
+)(4												<match start='158' end='159' parser=ws>
+)((													<text><![CDATA[ ]]></text>
+)(													<children>
+)(>														<match start='158' end='159' parser=whitespace>
+)(*															<text><![CDATA[ ]]></text>
+)(														</match>
+)(													</children>
+)(												</match>
+)(B												<match start='159' end='186' parser=PREDICATE_VALUES>
+)(B													<text><![CDATA[resource:type test:Customer]]></text>
+)(													<children>
+)(8														<match start='159' end='172' parser=VERB>
+)(6															<text><![CDATA[resource:type]]></text>
+)(															<children>
+)(>																<match start='159' end='172' parser=RESOURCE>
+)(8																	<text><![CDATA[resource:type]]></text>
+)(																	<children>
+)(=																		<match start='159' end='172' parser=QNAME>
+)(:																			<text><![CDATA[resource:type]]></text>
+)(																			<children>
+)(H																				<match start='159' end='167' parser=optional(name)>
+)(7																					<text><![CDATA[resource]]></text>
+)( 																					<children>
+)(@																						<match start='159' end='167' parser=name>
+)(9																							<text><![CDATA[resource]]></text>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(E																				<match start='167' end='168' parser=string(':')>
+)(0																					<text><![CDATA[:]]></text>
+)(																				</match>
+)(H																				<match start='168' end='172' parser=optional(name)>
+)(3																					<text><![CDATA[type]]></text>
+)( 																					<children>
+)(@																						<match start='168' end='172' parser=name>
+)(5																							<text><![CDATA[type]]></text>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(																	</children>
+)(																</match>
+)(															</children>
+)(														</match>
+)(6														<match start='172' end='173' parser=ws>
+)(*															<text><![CDATA[ ]]></text>
+)(															<children>
+)(@																<match start='172' end='173' parser=whitespace>
+)(,																	<text><![CDATA[ ]]></text>
+)(																</match>
+)(															</children>
+)(														</match>
+)(?														<match start='173' end='186' parser=OBJECT_LIST>
+)(6															<text><![CDATA[test:Customer]]></text>
+)(															<children>
+)(<																<match start='173' end='186' parser=OBJECT>
+)(8																	<text><![CDATA[test:Customer]]></text>
+)(																	<children>
+)(@																		<match start='173' end='186' parser=RESOURCE>
+)(:																			<text><![CDATA[test:Customer]]></text>
+)(																			<children>
+)(?																				<match start='173' end='186' parser=QNAME>
+)(<																					<text><![CDATA[test:Customer]]></text>
+)( 																					<children>
+)(J																						<match start='173' end='177' parser=optional(name)>
+)(5																							<text><![CDATA[test]]></text>
+)("																							<children>
+)(B																								<match start='173' end='177' parser=name>
+)(7																									<text><![CDATA[test]]></text>
+)(!																								</match>
+)(#																							</children>
+)(																						</match>
+)(G																						<match start='177' end='178' parser=string(':')>
+)(2																							<text><![CDATA[:]]></text>
+)(																						</match>
+)(J																						<match start='178' end='186' parser=optional(name)>
+)(9																							<text><![CDATA[Customer]]></text>
+)("																							<children>
+)(B																								<match start='178' end='186' parser=name>
+)(;																									<text><![CDATA[Customer]]></text>
+)(!																								</match>
+)(#																							</children>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(																	</children>
+)(																</match>
+)(s																<match start='186' end='186' parser=optional(repeat(sequence(optws, string(','), optws, OBJECT)))>
+)(+																	<text><![CDATA[]]></text>
+)(																</match>
+)(															</children>
+)(														</match>
+)(													</children>
+)(												</match>
+)(y												<match start='186' end='254' parser=optional(repeat(sequence(optws, string(';'), optws, PREDICATE_VALUES)))>
+)(													<text><![CDATA[ ;
+)(X															resource:description "A Customer defined in a Meteor manifest"]]></text>
+)(													<children>
+)(q														<match start='186' end='254' parser=repeat(sequence(optws, string(';'), optws, PREDICATE_VALUES))>
+)(!															<text><![CDATA[ ;
+)(Z																	resource:description "A Customer defined in a Meteor manifest"]]></text>
+)(															<children>
+)(k																<match start='186' end='254' parser=sequence(optws, string(';'), optws, PREDICATE_VALUES)>
+)(#																	<text><![CDATA[ ;
+)(\																			resource:description "A Customer defined in a Meteor manifest"]]></text>
+)(																	<children>
+)(=																		<match start='186' end='187' parser=optws>
+)(.																			<text><![CDATA[ ]]></text>
+)(																			<children>
+)(<																				<match start='186' end='187' parser=ws>
+)(0																					<text><![CDATA[ ]]></text>
+)( 																					<children>
+)(F																						<match start='186' end='187' parser=whitespace>
+)(2																							<text><![CDATA[ ]]></text>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(C																		<match start='187' end='188' parser=string(';')>
+)(.																			<text><![CDATA[;]]></text>
+)(																		</match>
+)(=																		<match start='188' end='192' parser=optws>
+)(#																			<text><![CDATA[
+)( 																					]]></text>
+)(																			<children>
+)(<																				<match start='188' end='192' parser=ws>
+)(%																					<text><![CDATA[
+)("																							]]></text>
+)( 																					<children>
+)(F																						<match start='188' end='192' parser=whitespace>
+)('																							<text><![CDATA[
+)($																									]]></text>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(H																		<match start='192' end='254' parser=PREDICATE_VALUES>
+)(k																			<text><![CDATA[resource:description "A Customer defined in a Meteor manifest"]]></text>
+)(																			<children>
+)(>																				<match start='192' end='212' parser=VERB>
+)(C																					<text><![CDATA[resource:description]]></text>
+)( 																					<children>
+)(D																						<match start='192' end='212' parser=RESOURCE>
+)(E																							<text><![CDATA[resource:description]]></text>
+)("																							<children>
+)(C																								<match start='192' end='212' parser=QNAME>
+)(G																									<text><![CDATA[resource:description]]></text>
+)($																									<children>
+)(N																										<match start='192' end='200' parser=optional(name)>
+)(=																											<text><![CDATA[resource]]></text>
+)(&																											<children>
+)(F																												<match start='192' end='200' parser=name>
+)(?																													<text><![CDATA[resource]]></text>
+)(%																												</match>
+)('																											</children>
+)(#																										</match>
+)(K																										<match start='200' end='201' parser=string(':')>
+)(6																											<text><![CDATA[:]]></text>
+)(#																										</match>
+)(N																										<match start='201' end='212' parser=optional(name)>
+)(@																											<text><![CDATA[description]]></text>
+)(&																											<children>
+)(F																												<match start='201' end='212' parser=name>
+)(B																													<text><![CDATA[description]]></text>
+)(%																												</match>
+)('																											</children>
+)(#																										</match>
+)(%																									</children>
+)(!																								</match>
+)(#																							</children>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(<																				<match start='212' end='213' parser=ws>
+)(0																					<text><![CDATA[ ]]></text>
+)( 																					<children>
+)(F																						<match start='212' end='213' parser=whitespace>
+)(2																							<text><![CDATA[ ]]></text>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(E																				<match start='213' end='254' parser=OBJECT_LIST>
+)(X																					<text><![CDATA["A Customer defined in a Meteor manifest"]]></text>
+)( 																					<children>
+)(B																						<match start='213' end='254' parser=OBJECT>
+)(Z																							<text><![CDATA["A Customer defined in a Meteor manifest"]]></text>
+)("																							<children>
+)(E																								<match start='213' end='254' parser=LITERAL>
+)(\																									<text><![CDATA["A Customer defined in a Meteor manifest"]]></text>
+)($																									<children>
+)(F																										<match start='213' end='254' parser=STRING>
+)(^																											<text><![CDATA["A Customer defined in a Meteor manifest"]]></text>
+)(&																											<children>
+)(O																												<match start='213' end='254' parser=QUOTED_STRING>
+)(`																													<text><![CDATA["A Customer defined in a Meteor manifest"]]></text>
+)(%																												</match>
+)(k																												<match start='254' end='254' parser=optional(sequence(string('@'), LANGUAGE))>
+)(7																													<text><![CDATA[]]></text>
+)(%																												</match>
+)('																											</children>
+)(#																										</match>
+)(%																									</children>
+)(!																								</match>
+)(#																							</children>
+)(																						</match>
+)(y																						<match start='254' end='254' parser=optional(repeat(sequence(optws, string(','), optws, OBJECT)))>
+)(1																							<text><![CDATA[]]></text>
+)(																						</match>
+)(!																					</children>
+)(																				</match>
+)(																			</children>
+)(																		</match>
+)(																	</children>
+)(																</match>
+)(															</children>
+)(														</match>
+)(													</children>
+)(												</match>
+)(											</children>
+)(										</match>
+)(									</children>
+)(								</match>
+)(3								<match start='254' end='255' parser=optws>
+)($									<text><![CDATA[ ]]></text>
+)(									<children>
+)(2										<match start='254' end='255' parser=ws>
+)(&											<text><![CDATA[ ]]></text>
+)(											<children>
+)(<												<match start='254' end='255' parser=whitespace>
+)((													<text><![CDATA[ ]]></text>
+)(												</match>
+)(											</children>
+)(										</match>
+)(									</children>
+)(								</match>
+)(9								<match start='255' end='256' parser=string('.')>
+)($									<text><![CDATA[.]]></text>
+)(								</match>
+)(							</children>
+)(						</match>
+)(1						<match start='256' end='261' parser=optws>
+)(							<text><![CDATA[
+)(						
+)(						
+)(						
+)(						
+)(						]]></text>
+)(							<children>
+)(0								<match start='256' end='261' parser=ws>
+)(									<text><![CDATA[
+)(									
+)(									
+)(									
+)(									
+)(								]]></text>
+)(									<children>
+)(:										<match start='256' end='261' parser=whitespace>
+)(											<text><![CDATA[
+)(										
+)(										
+)(										
+)(										
+)(										]]></text>
+)(										</match>
+)(									</children>
+)(								</match>
+)(							</children>
+)(						</match>
+)(					</children>
+)(				</match>
+)(			</children>
+)(		</match>
+)(	</children>
+)(	</match>
+)(

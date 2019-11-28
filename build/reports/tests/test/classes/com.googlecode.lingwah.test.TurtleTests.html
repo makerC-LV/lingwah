@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.googlecode.lingwah.test.TurtleTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.googlecode.lingwah.test.TurtleTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.googlecode.lingwah.test.html">com.googlecode.lingwah.test</a> &gt; TurtleTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.079s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBasicTriples</td>
+<td class="success">0.079s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>------- xml --------------
+&lt;match start='0' end='261' parser=DOCUMENT&gt;
+	&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;.
+@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;.
+
+test:CustomerFromManifest resource:type test:Customer ;
+			resource:description &quot;A Customer defined in a Meteor manifest&quot; .
+
+
+
+
+]]&gt;&lt;/text&gt;
+	&lt;children&gt;
+		&lt;match start='0' end='0' parser=optws&gt;
+			&lt;text&gt;&lt;![CDATA[]]&gt;&lt;/text&gt;
+		&lt;/match&gt;
+		&lt;match start='0' end='261' parser=repeat(sequence(STATEMENT, optws))&gt;
+			&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;.
+		@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;.
+		
+		test:CustomerFromManifest resource:type test:Customer ;
+					resource:description &quot;A Customer defined in a Meteor manifest&quot; .
+		
+		
+		
+		
+		]]&gt;&lt;/text&gt;
+			&lt;children&gt;
+				&lt;match start='0' end='69' parser=sequence(STATEMENT, optws)&gt;
+					&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;.
+				]]&gt;&lt;/text&gt;
+					&lt;children&gt;
+						&lt;match start='0' end='68' parser=STATEMENT&gt;
+							&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;.]]&gt;&lt;/text&gt;
+							&lt;children&gt;
+								&lt;match start='0' end='67' parser=choice(DIRECTIVE, TRIPLES)&gt;
+									&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='0' end='67' parser=DIRECTIVE&gt;
+											&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;]]&gt;&lt;/text&gt;
+											&lt;children&gt;
+												&lt;match start='0' end='67' parser=PREFIX_ID&gt;
+													&lt;text&gt;&lt;![CDATA[@prefix resource: &lt;meteor:com.googlecode.meteorframework.Resource.&gt;]]&gt;&lt;/text&gt;
+													&lt;children&gt;
+														&lt;match start='0' end='7' parser=string('@prefix')&gt;
+															&lt;text&gt;&lt;![CDATA[@prefix]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+														&lt;match start='7' end='8' parser=ws&gt;
+															&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='7' end='8' parser=whitespace&gt;
+																	&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='8' end='16' parser=optional(PREFIX_NAME)&gt;
+															&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='8' end='16' parser=PREFIX_NAME&gt;
+																	&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+																	&lt;children&gt;
+																		&lt;match start='8' end='16' parser=name&gt;
+																			&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+																		&lt;/match&gt;
+																	&lt;/children&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='16' end='17' parser=string(':')&gt;
+															&lt;text&gt;&lt;![CDATA[:]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+														&lt;match start='17' end='18' parser=ws&gt;
+															&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='17' end='18' parser=whitespace&gt;
+																	&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='18' end='67' parser=URIREF&gt;
+															&lt;text&gt;&lt;![CDATA[&lt;meteor:com.googlecode.meteorframework.Resource.&gt;]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+													&lt;/children&gt;
+												&lt;/match&gt;
+											&lt;/children&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+								&lt;match start='67' end='67' parser=optws&gt;
+									&lt;text&gt;&lt;![CDATA[]]&gt;&lt;/text&gt;
+								&lt;/match&gt;
+								&lt;match start='67' end='68' parser=string('.')&gt;
+									&lt;text&gt;&lt;![CDATA[.]]&gt;&lt;/text&gt;
+								&lt;/match&gt;
+							&lt;/children&gt;
+						&lt;/match&gt;
+						&lt;match start='68' end='69' parser=optws&gt;
+							&lt;text&gt;&lt;![CDATA[
+						]]&gt;&lt;/text&gt;
+							&lt;children&gt;
+								&lt;match start='68' end='69' parser=ws&gt;
+									&lt;text&gt;&lt;![CDATA[
+								]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='68' end='69' parser=whitespace&gt;
+											&lt;text&gt;&lt;![CDATA[
+										]]&gt;&lt;/text&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+							&lt;/children&gt;
+						&lt;/match&gt;
+					&lt;/children&gt;
+				&lt;/match&gt;
+				&lt;match start='69' end='133' parser=sequence(STATEMENT, optws)&gt;
+					&lt;text&gt;&lt;![CDATA[@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;.
+				
+				]]&gt;&lt;/text&gt;
+					&lt;children&gt;
+						&lt;match start='69' end='131' parser=STATEMENT&gt;
+							&lt;text&gt;&lt;![CDATA[@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;.]]&gt;&lt;/text&gt;
+							&lt;children&gt;
+								&lt;match start='69' end='130' parser=choice(DIRECTIVE, TRIPLES)&gt;
+									&lt;text&gt;&lt;![CDATA[@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='69' end='130' parser=DIRECTIVE&gt;
+											&lt;text&gt;&lt;![CDATA[@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;]]&gt;&lt;/text&gt;
+											&lt;children&gt;
+												&lt;match start='69' end='130' parser=PREFIX_ID&gt;
+													&lt;text&gt;&lt;![CDATA[@prefix test: &lt;meteor:com.googlecode.meteorlang.parser.test.&gt;]]&gt;&lt;/text&gt;
+													&lt;children&gt;
+														&lt;match start='69' end='76' parser=string('@prefix')&gt;
+															&lt;text&gt;&lt;![CDATA[@prefix]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+														&lt;match start='76' end='77' parser=ws&gt;
+															&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='76' end='77' parser=whitespace&gt;
+																	&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='77' end='81' parser=optional(PREFIX_NAME)&gt;
+															&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='77' end='81' parser=PREFIX_NAME&gt;
+																	&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+																	&lt;children&gt;
+																		&lt;match start='77' end='81' parser=name&gt;
+																			&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+																		&lt;/match&gt;
+																	&lt;/children&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='81' end='82' parser=string(':')&gt;
+															&lt;text&gt;&lt;![CDATA[:]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+														&lt;match start='82' end='83' parser=ws&gt;
+															&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='82' end='83' parser=whitespace&gt;
+																	&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='83' end='130' parser=URIREF&gt;
+															&lt;text&gt;&lt;![CDATA[&lt;meteor:com.googlecode.meteorlang.parser.test.&gt;]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+													&lt;/children&gt;
+												&lt;/match&gt;
+											&lt;/children&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+								&lt;match start='130' end='130' parser=optws&gt;
+									&lt;text&gt;&lt;![CDATA[]]&gt;&lt;/text&gt;
+								&lt;/match&gt;
+								&lt;match start='130' end='131' parser=string('.')&gt;
+									&lt;text&gt;&lt;![CDATA[.]]&gt;&lt;/text&gt;
+								&lt;/match&gt;
+							&lt;/children&gt;
+						&lt;/match&gt;
+						&lt;match start='131' end='133' parser=optws&gt;
+							&lt;text&gt;&lt;![CDATA[
+						
+						]]&gt;&lt;/text&gt;
+							&lt;children&gt;
+								&lt;match start='131' end='133' parser=ws&gt;
+									&lt;text&gt;&lt;![CDATA[
+								
+								]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='131' end='133' parser=whitespace&gt;
+											&lt;text&gt;&lt;![CDATA[
+										
+										]]&gt;&lt;/text&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+							&lt;/children&gt;
+						&lt;/match&gt;
+					&lt;/children&gt;
+				&lt;/match&gt;
+				&lt;match start='133' end='261' parser=sequence(STATEMENT, optws)&gt;
+					&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+							resource:description &quot;A Customer defined in a Meteor manifest&quot; .
+				
+				
+				
+				
+				]]&gt;&lt;/text&gt;
+					&lt;children&gt;
+						&lt;match start='133' end='256' parser=STATEMENT&gt;
+							&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+									resource:description &quot;A Customer defined in a Meteor manifest&quot; .]]&gt;&lt;/text&gt;
+							&lt;children&gt;
+								&lt;match start='133' end='254' parser=choice(DIRECTIVE, TRIPLES)&gt;
+									&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+											resource:description &quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='133' end='254' parser=TRIPLES&gt;
+											&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest resource:type test:Customer ;
+													resource:description &quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+											&lt;children&gt;
+												&lt;match start='133' end='158' parser=SUBJECT&gt;
+													&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest]]&gt;&lt;/text&gt;
+													&lt;children&gt;
+														&lt;match start='133' end='158' parser=RESOURCE&gt;
+															&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='133' end='158' parser=QNAME&gt;
+																	&lt;text&gt;&lt;![CDATA[test:CustomerFromManifest]]&gt;&lt;/text&gt;
+																	&lt;children&gt;
+																		&lt;match start='133' end='137' parser=optional(name)&gt;
+																			&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='133' end='137' parser=name&gt;
+																					&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																		&lt;match start='137' end='138' parser=string(':')&gt;
+																			&lt;text&gt;&lt;![CDATA[:]]&gt;&lt;/text&gt;
+																		&lt;/match&gt;
+																		&lt;match start='138' end='158' parser=optional(name)&gt;
+																			&lt;text&gt;&lt;![CDATA[CustomerFromManifest]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='138' end='158' parser=name&gt;
+																					&lt;text&gt;&lt;![CDATA[CustomerFromManifest]]&gt;&lt;/text&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																	&lt;/children&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+													&lt;/children&gt;
+												&lt;/match&gt;
+												&lt;match start='158' end='159' parser=ws&gt;
+													&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+													&lt;children&gt;
+														&lt;match start='158' end='159' parser=whitespace&gt;
+															&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+														&lt;/match&gt;
+													&lt;/children&gt;
+												&lt;/match&gt;
+												&lt;match start='159' end='186' parser=PREDICATE_VALUES&gt;
+													&lt;text&gt;&lt;![CDATA[resource:type test:Customer]]&gt;&lt;/text&gt;
+													&lt;children&gt;
+														&lt;match start='159' end='172' parser=VERB&gt;
+															&lt;text&gt;&lt;![CDATA[resource:type]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='159' end='172' parser=RESOURCE&gt;
+																	&lt;text&gt;&lt;![CDATA[resource:type]]&gt;&lt;/text&gt;
+																	&lt;children&gt;
+																		&lt;match start='159' end='172' parser=QNAME&gt;
+																			&lt;text&gt;&lt;![CDATA[resource:type]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='159' end='167' parser=optional(name)&gt;
+																					&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='159' end='167' parser=name&gt;
+																							&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																				&lt;match start='167' end='168' parser=string(':')&gt;
+																					&lt;text&gt;&lt;![CDATA[:]]&gt;&lt;/text&gt;
+																				&lt;/match&gt;
+																				&lt;match start='168' end='172' parser=optional(name)&gt;
+																					&lt;text&gt;&lt;![CDATA[type]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='168' end='172' parser=name&gt;
+																							&lt;text&gt;&lt;![CDATA[type]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																	&lt;/children&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='172' end='173' parser=ws&gt;
+															&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='172' end='173' parser=whitespace&gt;
+																	&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+														&lt;match start='173' end='186' parser=OBJECT_LIST&gt;
+															&lt;text&gt;&lt;![CDATA[test:Customer]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='173' end='186' parser=OBJECT&gt;
+																	&lt;text&gt;&lt;![CDATA[test:Customer]]&gt;&lt;/text&gt;
+																	&lt;children&gt;
+																		&lt;match start='173' end='186' parser=RESOURCE&gt;
+																			&lt;text&gt;&lt;![CDATA[test:Customer]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='173' end='186' parser=QNAME&gt;
+																					&lt;text&gt;&lt;![CDATA[test:Customer]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='173' end='177' parser=optional(name)&gt;
+																							&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+																							&lt;children&gt;
+																								&lt;match start='173' end='177' parser=name&gt;
+																									&lt;text&gt;&lt;![CDATA[test]]&gt;&lt;/text&gt;
+																								&lt;/match&gt;
+																							&lt;/children&gt;
+																						&lt;/match&gt;
+																						&lt;match start='177' end='178' parser=string(':')&gt;
+																							&lt;text&gt;&lt;![CDATA[:]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																						&lt;match start='178' end='186' parser=optional(name)&gt;
+																							&lt;text&gt;&lt;![CDATA[Customer]]&gt;&lt;/text&gt;
+																							&lt;children&gt;
+																								&lt;match start='178' end='186' parser=name&gt;
+																									&lt;text&gt;&lt;![CDATA[Customer]]&gt;&lt;/text&gt;
+																								&lt;/match&gt;
+																							&lt;/children&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																	&lt;/children&gt;
+																&lt;/match&gt;
+																&lt;match start='186' end='186' parser=optional(repeat(sequence(optws, string(','), optws, OBJECT)))&gt;
+																	&lt;text&gt;&lt;![CDATA[]]&gt;&lt;/text&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+													&lt;/children&gt;
+												&lt;/match&gt;
+												&lt;match start='186' end='254' parser=optional(repeat(sequence(optws, string(';'), optws, PREDICATE_VALUES)))&gt;
+													&lt;text&gt;&lt;![CDATA[ ;
+															resource:description &quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+													&lt;children&gt;
+														&lt;match start='186' end='254' parser=repeat(sequence(optws, string(';'), optws, PREDICATE_VALUES))&gt;
+															&lt;text&gt;&lt;![CDATA[ ;
+																	resource:description &quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+															&lt;children&gt;
+																&lt;match start='186' end='254' parser=sequence(optws, string(';'), optws, PREDICATE_VALUES)&gt;
+																	&lt;text&gt;&lt;![CDATA[ ;
+																			resource:description &quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																	&lt;children&gt;
+																		&lt;match start='186' end='187' parser=optws&gt;
+																			&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='186' end='187' parser=ws&gt;
+																					&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='186' end='187' parser=whitespace&gt;
+																							&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																		&lt;match start='187' end='188' parser=string(';')&gt;
+																			&lt;text&gt;&lt;![CDATA[;]]&gt;&lt;/text&gt;
+																		&lt;/match&gt;
+																		&lt;match start='188' end='192' parser=optws&gt;
+																			&lt;text&gt;&lt;![CDATA[
+																					]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='188' end='192' parser=ws&gt;
+																					&lt;text&gt;&lt;![CDATA[
+																							]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='188' end='192' parser=whitespace&gt;
+																							&lt;text&gt;&lt;![CDATA[
+																									]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																		&lt;match start='192' end='254' parser=PREDICATE_VALUES&gt;
+																			&lt;text&gt;&lt;![CDATA[resource:description &quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																			&lt;children&gt;
+																				&lt;match start='192' end='212' parser=VERB&gt;
+																					&lt;text&gt;&lt;![CDATA[resource:description]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='192' end='212' parser=RESOURCE&gt;
+																							&lt;text&gt;&lt;![CDATA[resource:description]]&gt;&lt;/text&gt;
+																							&lt;children&gt;
+																								&lt;match start='192' end='212' parser=QNAME&gt;
+																									&lt;text&gt;&lt;![CDATA[resource:description]]&gt;&lt;/text&gt;
+																									&lt;children&gt;
+																										&lt;match start='192' end='200' parser=optional(name)&gt;
+																											&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+																											&lt;children&gt;
+																												&lt;match start='192' end='200' parser=name&gt;
+																													&lt;text&gt;&lt;![CDATA[resource]]&gt;&lt;/text&gt;
+																												&lt;/match&gt;
+																											&lt;/children&gt;
+																										&lt;/match&gt;
+																										&lt;match start='200' end='201' parser=string(':')&gt;
+																											&lt;text&gt;&lt;![CDATA[:]]&gt;&lt;/text&gt;
+																										&lt;/match&gt;
+																										&lt;match start='201' end='212' parser=optional(name)&gt;
+																											&lt;text&gt;&lt;![CDATA[description]]&gt;&lt;/text&gt;
+																											&lt;children&gt;
+																												&lt;match start='201' end='212' parser=name&gt;
+																													&lt;text&gt;&lt;![CDATA[description]]&gt;&lt;/text&gt;
+																												&lt;/match&gt;
+																											&lt;/children&gt;
+																										&lt;/match&gt;
+																									&lt;/children&gt;
+																								&lt;/match&gt;
+																							&lt;/children&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																				&lt;match start='212' end='213' parser=ws&gt;
+																					&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='212' end='213' parser=whitespace&gt;
+																							&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																				&lt;match start='213' end='254' parser=OBJECT_LIST&gt;
+																					&lt;text&gt;&lt;![CDATA[&quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																					&lt;children&gt;
+																						&lt;match start='213' end='254' parser=OBJECT&gt;
+																							&lt;text&gt;&lt;![CDATA[&quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																							&lt;children&gt;
+																								&lt;match start='213' end='254' parser=LITERAL&gt;
+																									&lt;text&gt;&lt;![CDATA[&quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																									&lt;children&gt;
+																										&lt;match start='213' end='254' parser=STRING&gt;
+																											&lt;text&gt;&lt;![CDATA[&quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																											&lt;children&gt;
+																												&lt;match start='213' end='254' parser=QUOTED_STRING&gt;
+																													&lt;text&gt;&lt;![CDATA[&quot;A Customer defined in a Meteor manifest&quot;]]&gt;&lt;/text&gt;
+																												&lt;/match&gt;
+																												&lt;match start='254' end='254' parser=optional(sequence(string('@'), LANGUAGE))&gt;
+																													&lt;text&gt;&lt;![CDATA[]]&gt;&lt;/text&gt;
+																												&lt;/match&gt;
+																											&lt;/children&gt;
+																										&lt;/match&gt;
+																									&lt;/children&gt;
+																								&lt;/match&gt;
+																							&lt;/children&gt;
+																						&lt;/match&gt;
+																						&lt;match start='254' end='254' parser=optional(repeat(sequence(optws, string(','), optws, OBJECT)))&gt;
+																							&lt;text&gt;&lt;![CDATA[]]&gt;&lt;/text&gt;
+																						&lt;/match&gt;
+																					&lt;/children&gt;
+																				&lt;/match&gt;
+																			&lt;/children&gt;
+																		&lt;/match&gt;
+																	&lt;/children&gt;
+																&lt;/match&gt;
+															&lt;/children&gt;
+														&lt;/match&gt;
+													&lt;/children&gt;
+												&lt;/match&gt;
+											&lt;/children&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+								&lt;match start='254' end='255' parser=optws&gt;
+									&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='254' end='255' parser=ws&gt;
+											&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+											&lt;children&gt;
+												&lt;match start='254' end='255' parser=whitespace&gt;
+													&lt;text&gt;&lt;![CDATA[ ]]&gt;&lt;/text&gt;
+												&lt;/match&gt;
+											&lt;/children&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+								&lt;match start='255' end='256' parser=string('.')&gt;
+									&lt;text&gt;&lt;![CDATA[.]]&gt;&lt;/text&gt;
+								&lt;/match&gt;
+							&lt;/children&gt;
+						&lt;/match&gt;
+						&lt;match start='256' end='261' parser=optws&gt;
+							&lt;text&gt;&lt;![CDATA[
+						
+						
+						
+						
+						]]&gt;&lt;/text&gt;
+							&lt;children&gt;
+								&lt;match start='256' end='261' parser=ws&gt;
+									&lt;text&gt;&lt;![CDATA[
+								
+								
+								
+								
+								]]&gt;&lt;/text&gt;
+									&lt;children&gt;
+										&lt;match start='256' end='261' parser=whitespace&gt;
+											&lt;text&gt;&lt;![CDATA[
+										
+										
+										
+										
+										]]&gt;&lt;/text&gt;
+										&lt;/match&gt;
+									&lt;/children&gt;
+								&lt;/match&gt;
+							&lt;/children&gt;
+						&lt;/match&gt;
+					&lt;/children&gt;
+				&lt;/match&gt;
+			&lt;/children&gt;
+		&lt;/match&gt;
+	&lt;/children&gt;
+&lt;/match&gt;
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Nov 28, 2019 12:00:32 PM</p>
+</div>
+</div>
+</body>
+</html>

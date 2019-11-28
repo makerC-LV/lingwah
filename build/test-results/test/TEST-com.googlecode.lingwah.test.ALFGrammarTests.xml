@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.googlecode.lingwah.test.ALFGrammarTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2019-11-28T17:00:31" hostname="Shivas-MBP" time="1.234">
+  <properties/>
+  <testcase name="testWhiteSpace" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.0"/>
+  <testcase name="testQualifiedNames" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.102"/>
+  <testcase name="testBooleanLiterals" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.0"/>
+  <testcase name="testNaturalLiterals" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.002"/>
+  <testcase name="testStringLiterals" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.007"/>
+  <testcase name="testPropertyAccessExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.025"/>
+  <testcase name="testInvocationExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.199"/>
+  <testcase name="testInstanceCreationExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.049"/>
+  <testcase name="testLinkOperationsExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.06"/>
+  <testcase name="testClassExtendExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.004"/>
+  <testcase name="testSequenceConstructionExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.022"/>
+  <testcase name="testSequenceAccessExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.017"/>
+  <testcase name="testSequenceOperationsExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.047"/>
+  <testcase name="testSequenceReductionExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.01"/>
+  <testcase name="testSequenceExpansionExpressions" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.141"/>
+  <testcase name="testIncrementOrDecrementExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.015"/>
+  <testcase name="testBooleanUnaryExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.021"/>
+  <testcase name="testBitStringUnaryExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.012"/>
+  <testcase name="testNumericUnaryExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.021"/>
+  <testcase name="testCastExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.018"/>
+  <testcase name="testIsolationExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.139"/>
+  <testcase name="testUnaryOrArithmeticExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.044"/>
+  <testcase name="testRelationalExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.039"/>
+  <testcase name="testClassificationExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.042"/>
+  <testcase name="testEqualityExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.019"/>
+  <testcase name="testLogicalExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.0"/>
+  <testcase name="testConditionalLogicalExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.023"/>
+  <testcase name="testConditionalTestExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.017"/>
+  <testcase name="testAssignmentExpression" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.062"/>
+  <testcase name="testBlock" classname="com.googlecode.lingwah.test.ALFGrammarTests" time="0.071"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
